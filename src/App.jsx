@@ -25,24 +25,41 @@ function App() {
           </header>
           <main className='mainClass'>
             <div className='contenedorArticulos'>
-              <div className='quienesSomos'>
-                  <h3 className='H3QuienesSomos'>Yacimiento AGRO-INDUSTRIAL SULFACAL</h3> 
-                  <p className='pQuieneSomos'>Es una empresa dedicada a la producción de minerales para la
-                  industria y el agro.
-                  En la provincia de San Luís explota la Cantera El Portezuelo, yacimiento de “Yeso de alta ley”, ubicado en el paraje de Naranjo Esquino, próximo a la Localidad de Las Caleras y a 70 Km de la Ciudad de San Luís.
-                  Este yacimiento posee cinco niveles de yeso en forma estratificada, de rumbo medio norte - Sur e inclinación de 5 a 7º al este. De estos niveles se encuentran mapeados tres de ellos, denominados, de oeste a este 1, 2 y 4.
-                  La continuidad en superficie de estos niveles se puede verificar por más de tres mil metros
-                  Las Reservas de este yacimiento medidas al presente son las sector Norte, que ascienden a dos millones cien mil toneladas.
-                  Los niveles continúan al Sur, donde existen recursos por más de cuatro millones de toneladas adicionales.
+              <div className='cuadroQuienesSomos'>
+              <img className='iconQuienesSomos' src="./public/icons/mineria.png" alt="" />
+                  <h3 className='H3CuadroQuienesSomos'>Minera Sierra de las Quijadas S.A.U</h3> 
+                  <p className='pCuadroQuieneSomos'>¿Quiénes Somos?
+                  Es una empresa dedicada a la extracción, producción y molienda de minerales para la industria y el agro.
                 </p>
               </div>
-              <div className='muestraMineral'>
-                <div className='contenedorMuestraMineralImagen'>
-                  <h3 className='h3MuestraMineral'>Muestra de Mineral:</h3>
-                  <img className='muestraMineralImagen' src="./public/img_minera_2.jpg"alt="" />
-                </div>
-                  
+              <div className='cuadroUbicacion'>
+                <img className='iconUbicacion' src="./public/icons/ubicacion3.png" alt="" />
+                  <h3 className='H3Ubicacion'>Ubicación</h3> 
+                  <p className='pUbicacion'>Ubicada en la Provincia de San Luis, en el paraje de Naranjo Esquino, a 70 Km de la Ciudad de San Luis.
+                </p>
               </div>
+              <div className='cuadroDestacamos'>
+              <img className='iconDestacamos' src="./public/icons/destacamos3.png" alt="" />
+                  <h3 className='H3Destacamos'>Destacamos</h3> 
+                  <p className='pDestacamos'>En la alta calidad y pureza del Sulfato de Calcio extraído, sumado a la posibilidad de cubrir las altas demandas del cliente de dicho mineral.
+                </p>
+              </div>
+              <div className='cuadroProductos'>
+              <img className='iconProductos' src="./public/icons/mineral2.png" alt="" />
+                  <h3 className='H3Productos'>Productos</h3> 
+                  <p className='pProductos'>El Sulfato de Calcio es extraído, triturado y seleccionado logrando generar un producto final en diferentes granulometrías: "cabeza de caballo", 5 4  - 50 mm;  5 - 10 mm;  2 - 4 mm y polvo entre otras.
+
+
+
+                </p>
+              </div>
+              
+            </div>
+            <div className='contenedorUbicacion'>
+              
+              
+              
+
             </div>
           </main>
           <footer className='footerClass'> <p className='CopyrightP'> Copyright© 2024 - Leonidas Developer</p></footer>
