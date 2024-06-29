@@ -259,6 +259,79 @@
 
 .pProductos {
     color: #566573; 
-    font-family: 'Open Sans', arial, sans-serif;;
+    font-family: 'Open Sans', arial, sans-serif;
     line-height: 1.3;
+}
+
+/*-----------------------SINTESIS-------------------------*/
+
+.contenedorSintensis {
+
+    background-color: #17202A  ;
+    height: auto;
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerViñetasFotosSintesis {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.viñetaFotoSintesis1, .viñetaFotoSintesis2 {
+    padding-top: 2rem;
+    height: auto;
+    margin: 1rem;
+    width: 35rem;
+    height: 26rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #273746;
+    
+}
+
+.H3sintesis { 
+    font-size: 2rem;
+    color: #FDFDFD;
+    font-family: 'Open Sans', arial, sans-serif;
+    text-align: center;
+    padding-top: 3rem;
+    
+}
+
+.pSintesis {
+    width: 50rem;
+    color: #FDFDFD;
+    font-family: 'Open Sans', arial, sans-serif;
+    text-align: center;
+    padding: 1rem 5rem;
+    margin-bottom: 3rem;
+    line-height: 2.1rem;
+}
+
+.imagenViñetaFotosintesis {
+    width: 30rem;
+}
+
+.pSintesis {
+    text-align: justify;
+    width: 60rem;
+    color: #FDFDFD;
+    font-family: 'Open Sans', arial, sans-serif;
+    padding: 1rem 5rem;
+    margin-bottom: 3rem;
+    line-height: 2.1rem;
+}
+
+.pSintesisz {
+    width: auto;
+    color: #FDFDFD;
+    font-family: 'Open Sans', arial, sans-serif;
+    padding: 1rem 5rem;
+    margin-bottom: 3rem;
+    line-height: 2.1rem;
 }
